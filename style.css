@@ -1,0 +1,216 @@
+body{
+    background-image: url('https://i.imgur.com/tYFL3fO.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height:100vh;
+    overflow:hidden;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:before, 
+:after{
+    content:'';
+    position:absolute;
+}
+span{
+    display:inline-block;
+}
+.gabii-xat{
+    position:relative;
+    width:1248px;
+    height:100vh;
+    font-family: Calibri;
+    color:#FFF;
+    margin:0 auto;
+    display:flex;
+    font-size:1em;
+}
+.gabii-aside{
+    position:relative;
+    width:250px;
+}
+.gabii-box{
+    background:#252525;
+    width:250px;
+    height:250px;
+    position:absolute;
+    top:180px;
+    border-radius: 6px;
+    -webkit-box-shadow: inset 1px -1px 20px 0px rgba(250,250,250,0.6);
+    -moz-box-shadow: inset 1px -1px 20px 0px rgba(250,250,250,0.6);
+    box-shadow: inset 1px -1px 20px 0px rgba(250,250,250,0.6);
+}
+.gabii-box:before{
+    width:150px;
+    height:44px;
+    background:#333;
+    left:0;
+    top:-18px;
+    border-bottom:solid 4px #FAFAFA;
+}
+.gabii-header{
+    position:relative;
+    width:250px;
+    height:36px;
+    left:0;
+    top:0;
+    transform:translateY(-14px);
+    display:flex;
+    z-index:10;
+}
+.gabii-header:after{
+    width:140px;
+    height:35px;
+    background:#FAFAFA;
+    -webkit-transform:skewX(25deg);
+    transform:skewX(25deg);
+    left:80px;
+    top:2px;
+    box-shadow:-1px 0 #333, -10px 0 #FAFAFA;
+}
+.gabii-header span{
+    height:35px;
+    line-height:36px;
+    width:35px;
+    font-size:1.2em;
+    text-align:right;
+}
+.gabii-header p{
+    position:relative;
+    flex-grow:1;
+    line-height:36px;
+    padding-left:42px;
+    font-size:1.2em;
+    color:#333;
+    z-index:100;
+}
+.gabii-content{
+    width:240px;
+    height:90px;
+    margin-left:5px;
+    margin-top:15px;
+    display:flex;
+    color:#333;
+}
+.gabii-col:first-child{
+    width:160px;
+    margin-right:5px;
+    border-right:solid 0px rgba(250,250,250,.1);
+}
+.gabii-col h1{
+    width:100%;
+    height:63px;
+    font-family: Calibri;
+    text-transform:uppercase;
+    font-size:1.41em;
+    margin-left: 42px;
+    margin-top:15px;
+}
+.gabii-col p{
+    width:150px;
+    height:27px;
+    color:#FAFAFA;
+    line-height:25px;
+    margin-left: 38px;
+    margin-top: 20px;
+    border-radius: 6px;
+    text-align:center;
+    border: 1px solid rgba(250,250,250,.9);
+}
+.gabii-clock{
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content:space-between;
+    margin-top:-25px;
+}
+.gabii-block{
+    width:82px;
+    height:100px;
+    text-align:center;
+    padding:1px;
+    background:transparent;
+}
+.gabii-clock h1{
+    width:100%;
+    height:70px;
+    line-height:72px;
+    color:#FAFAFA;
+    font-family: Calibri;
+    font-size:2.6em;
+}
+.gabii-clock span{
+    width:100%;
+    line-height:18px;
+    margin-left:-10px;
+    font-size:0.8em;
+    height:20px;
+    border-top:solid 1px rgba(255,255,255,.3);
+    color:rgba(250,250,250);
+}
+.gabii-block:nth-child(3) h1{
+    color:#FAFAFA;
+}
+.gabii-block:nth-child(3) span{
+    border-top:solid 1px rgba(250,250,250,.3);
+}
+.gabii-container{
+    position:relative;
+    width:748px;
+}
+.gabii-inner{
+    position:absolute;
+    width:728px;
+    height:486px;
+    background-image: url('https://i.imgur.com/qtMOgnf.png');
+    border-radius: 6px;
+    left:10px;
+    top:80px;
+}
+.gabii-inner:before, 
+.gabii-inner:after{
+    width:350px;
+    height:50px;
+    background:#333;
+    bottom:0;
+    border-radius:4px;
+    filter:blur(30px);
+    opacity:.7;
+    z-index:-1;
+}
+.gabii-inner:before{
+    left:40px;
+    transform:rotate(-7deg);
+}
+.gabii-inner:after{
+    right:40px;
+    transform:rotate(7deg);
+}
+.gabii-letter{
+    position:absolute;
+    width:340px;
+    height:60px;
+    border:double 3px rgba(250,250,250,.2);
+    left:95px;
+    top:150px;
+}
+.gabii-letter p{
+    position:absolute;
+    width:320px;
+    height:34px;
+    left: 7px;
+    top:10px;
+    background:#FAFAFA;
+    color:#252525;
+    text-align:center;
+    line-height:34px;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    font-size:1.4em;
+    border-radius: 6px;
+    opacity:.7;
+}
