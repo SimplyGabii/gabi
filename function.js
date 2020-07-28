@@ -111,4 +111,3 @@ function animate(){
 
 init();
 animate();
-//alert("!ok");
