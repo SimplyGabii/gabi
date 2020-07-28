@@ -111,8 +111,8 @@ span{
     position:absolute;
     width:60px;
     height:60px;
-    left:2px;
-    top:2px;
+    margin-left:2px;
+    margin-top:20px;
     top:calc(50% - 37px);
     z-index:10;
     border-radius:50%;
