@@ -154,14 +154,9 @@ body{
     top:200px;
     background:#252525;
     border-radius: 6px;
-
     -webkit-box-shadow: 0 2px 20px 0 rgba(54,54,54,0.5);
     -moz-box-shadow: 0 2px 20px 0 rgba(540,54,54,0.5);
     box-shadow: 0 2px 20px 0 rgba(54,54,54,0.5);
-
-    //-webkit-box-shadow: inset 1px -1px 20px 0px rgba(245,245,245,0.6);
-    //-moz-box-shadow: inset 1px -1px 20px 0px rgba(245,245,245,0.6);
-    //box-shadow: inset 1px -1px 20px 0px rgba(245,245,245,0.6);
     z-index:100;
 }
 .gabii-box:before{
@@ -282,7 +277,6 @@ body{
 .gabii-chat-box{
     position:absolute;
     background:#333;
-  //background-image: url('https://i.imgur.com/qtMOgnf.png');
     width:728px;
     height:486px;
     left:10px;
