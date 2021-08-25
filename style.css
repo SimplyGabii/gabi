@@ -1,6 +1,6 @@
 /* Theme Book - All CSS and HTML Author: Gabii */ 
 body  {
-background:url('https://i.postimg.cc/k5N723Lm/bKvnSbX.png')center top repeat-x,url('https://i.postimg.cc/XqKTrGKn/1zqudergb.png, rgb(255,255,255)') repeat}
+background:url('https://i.postimg.cc/k5N723Lm/bKvnSbX.png')center top repeat-x,url('https://i.postimg.cc/XqKTrGKn/1zqudergb.png' ,rgb(255,255,255)) repeat}
 
 *{
     margin:0;
@@ -12,10 +12,6 @@ background:url('https://i.postimg.cc/k5N723Lm/bKvnSbX.png')center top repeat-x,u
 *{
 cursor:url(https://i.postimg.cc/R0y2C3pb/cursor.png),auto}
 
-i#nowayitems{
-    font-family:var(--font-1);
-    font-size:15px;
-} 
 :root{
     --font-1: 'Berkshire Swash', cursive;
     --font-2:'Great Vibes',cursive;
