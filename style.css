@@ -1,6 +1,6 @@
 /* Theme Book - All CSS and HTML Author: Gabii */ 
 body  {
-background:url('https://i.postimg.cc/k5N723Lm/bKvnSbX.png')center top repeat-x,url('https://i.postimg.cc/XqKTrGKn/1zqudergb.png' ,rgb(255,255,255)) repeat}
+background:url('https://i.postimg.cc/k5N723Lm/bKvnSbX.png')center top repeat-x,url('https://i.postimg.cc/XqKTrGKn/1zqudergb.png')repeat  ,rgb(255,255,255) }
 
 *{
     margin:0;
